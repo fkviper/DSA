@@ -423,8 +423,6 @@ int main() {
     avltree->printInorder();
     cout << "\n";
     avltree->printPostorder();
-
-    delete avltree;
   }
   cout << "\nTest 2" << endl;
 
@@ -476,6 +474,8 @@ int main() {
     avltree->printInorder();
     cout << "\n";
     avltree->printPostorder();
+    
+    delete avltree;
   }
   cout << "\nTest 5" << endl;
 
