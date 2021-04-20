@@ -648,6 +648,254 @@ int main() {
     cout << "\n";
     avltree->printPostorder();
   }
+
+  cout << "----------------ROTATE RIGHT-----------------" << endl;
+
+  cout << "\nTest 1" << endl;
+  {
+      OurCSCE310Tree* avltree = new OurCSCE310Tree();
+        avltree->insert(35);
+        avltree->insert(30);
+        avltree->insert(27);
+        avltree->insert(23);
+        avltree->insert(19);
+        avltree->insert(12);
+      avltree->printPreorder();
+      cout << "\n";
+      avltree->printInorder();
+      cout << "\n";
+      avltree->printPostorder();
+  }
+
+  cout << "\nTest 2" << endl;
+  {
+      OurCSCE310Tree* avltree = new OurCSCE310Tree();
+          avltree->insert(36);
+          avltree->insert(32);
+          avltree->insert(29);
+          avltree->insert(27);
+          avltree->insert(26);
+          avltree->insert(22);
+          avltree->insert(21);
+          avltree->insert(19);
+          avltree->insert(17);
+          avltree->insert(14);
+      avltree->printPreorder();
+      cout << "\n";
+      avltree->printInorder();
+      cout << "\n";
+      avltree->printPostorder();
+  }
+  cout << "\nTest 3" << endl;
+  {
+      OurCSCE310Tree* avltree = new OurCSCE310Tree();
+          avltree->insert(40);
+          avltree->insert(36);
+          avltree->insert(33);
+
+      avltree->printPreorder();
+      cout << "\n";
+      avltree->printInorder();
+      cout << "\n";
+      avltree->printPostorder();
+  }
+  cout << "\nTest 4" << endl;
+  {
+      OurCSCE310Tree* avltree = new OurCSCE310Tree();
+          avltree->insert(40);
+          avltree->insert(37);
+          avltree->insert(36);
+          avltree->insert(34);
+          avltree->insert(32);
+          avltree->insert(30);
+          avltree->insert(25);
+          avltree->insert(24);
+          avltree->insert(18);
+          avltree->insert(15);
+      avltree->printPreorder();
+      cout << "\n";
+      avltree->printInorder();
+      cout << "\n";
+      avltree->printPostorder();
+  }
+  cout << "\nTest 5" << endl;
+  {
+      OurCSCE310Tree* avltree = new OurCSCE310Tree();
+          avltree->insert(39);
+          avltree->insert(38);
+          avltree->insert(35);
+          avltree->insert(34);
+          avltree->insert(30);
+          avltree->insert(28);
+          avltree->insert(26);
+          avltree->insert(23);
+          avltree->insert(21);
+      avltree->printPreorder();
+      cout << "\n";
+      avltree->printInorder();
+      cout << "\n";
+      avltree->printPostorder();
+  }
+  cout << "\nTest 6" << endl;
+  {
+      OurCSCE310Tree* avltree = new OurCSCE310Tree();
+          avltree->insert(36);
+          avltree->insert(30);
+          avltree->insert(27);
+          avltree->insert(25);
+          avltree->insert(23);
+          avltree->insert(21);
+          avltree->insert(17);
+          avltree->insert(15);
+      avltree->printPreorder();
+      cout << "\n";
+      avltree->printInorder();
+      cout << "\n";
+      avltree->printPostorder();
+  }
+  cout << "\nTest 7" << endl;
+  {
+      OurCSCE310Tree* avltree = new OurCSCE310Tree();
+          avltree->insert(36);
+          avltree->insert(35);
+          avltree->insert(29);
+          avltree->insert(25);
+          avltree->insert(21);
+          avltree->insert(20);
+          avltree->insert(19);
+      avltree->printPreorder();
+      cout << "\n";
+      avltree->printInorder();
+      cout << "\n";
+      avltree->printPostorder();
+  }
+  cout << "\nTest 8" << endl;
+  {
+      OurCSCE310Tree* avltree = new OurCSCE310Tree();
+          avltree->insert(37);
+          avltree->insert(36);
+          avltree->insert(31);
+          avltree->insert(29);
+          avltree->insert(26);
+          avltree->insert(20);
+          avltree->insert(19);
+          avltree->insert(17);
+          avltree->insert(14);
+      avltree->printPreorder();
+      cout << "\n";
+      avltree->printInorder();
+      cout << "\n";
+      avltree->printPostorder();
+  }
+  cout << "\nTest 9" << endl;
+  {
+      OurCSCE310Tree* avltree = new OurCSCE310Tree();
+          avltree->insert(40);
+          avltree->insert(36);
+          avltree->insert(34);
+          avltree->insert(33);
+          avltree->insert(23);
+          avltree->insert(16);
+          avltree->insert(15);
+          avltree->insert(13);
+      avltree->printPreorder();
+      cout << "\n";
+      avltree->printInorder();
+      cout << "\n";
+      avltree->printPostorder();
+  }
+  cout << "\nTest 10" << endl;
+  {
+      OurCSCE310Tree* avltree = new OurCSCE310Tree();
+          avltree->insert(39);
+          avltree->insert(33);
+          avltree->insert(32);
+          avltree->insert(28);
+          avltree->insert(27);
+          avltree->insert(26);
+          avltree->insert(20);
+          avltree->insert(19);
+          avltree->insert(12);
+      avltree->printPreorder();
+      cout << "\n";
+      avltree->printInorder();
+      cout << "\n";
+      avltree->printPostorder();
+  }
+  cout << "\nTest 11" << endl;
+  {
+      OurCSCE310Tree* avltree = new OurCSCE310Tree();
+          avltree->insert(34);
+          avltree->insert(32);
+          avltree->insert(31);
+          avltree->insert(22);
+          avltree->insert(16);
+
+      avltree->printPreorder();
+      cout << "\n";
+      avltree->printInorder();
+      cout << "\n";
+      avltree->printPostorder();
+  }
+  cout << "\nTest 12" << endl;
+  {
+      OurCSCE310Tree* avltree = new OurCSCE310Tree();
+          avltree->insert(37);
+          avltree->insert(31);
+          avltree->insert(29);
+          avltree->insert(23);
+          avltree->insert(21);
+          avltree->insert(18);
+          avltree->insert(16);
+      avltree->printPreorder();
+      cout << "\n";
+      avltree->printInorder();
+      cout << "\n";
+      avltree->printPostorder();
+  }
+  cout << "\nTest 13" << endl;
+  {
+      OurCSCE310Tree* avltree = new OurCSCE310Tree();
+      avltree->insert(33);
+      avltree->printPreorder();
+      cout << "\n";
+      avltree->printInorder();
+      cout << "\n";
+      avltree->printPostorder();
+  }
+  cout << "\nTest 14" << endl;
+  {
+      OurCSCE310Tree* avltree = new OurCSCE310Tree();
+          avltree->insert(39);
+          avltree->insert(32);
+          avltree->insert(30);
+          avltree->insert(28);
+          avltree->insert(27);
+          avltree->insert(21);
+          avltree->insert(19);
+          avltree->insert(18);
+          avltree->insert(15);
+      avltree->printPreorder();
+      cout << "\n";
+      avltree->printInorder();
+      cout << "\n";
+      avltree->printPostorder();
+  }
+  cout << "\nTest 15" << endl;
+  {
+      OurCSCE310Tree* avltree = new OurCSCE310Tree();
+          avltree->insert(36);
+          avltree->insert(35);
+          avltree->insert(18);
+          avltree->insert(14);
+          avltree->insert(12);
+      avltree->printPreorder();
+      cout << "\n";
+      avltree->printInorder();
+      cout << "\n";
+      avltree->printPostorder();
+  }
+
   cout << "----------------DELETE CASES-----------------" << endl;
   cout << "test 1" << endl;
   {
