@@ -246,7 +246,7 @@ void OurCSCE310Tree::rotateLeft(){
   setValue(pQ->getValue()); // Q
   setLeft(temp); // set left of Q as P
   setRight(pQ->getRight()); // maintain right of Q , i.e. C
-  setParent(pQ->getParent()); // Q is root node so parent is null.
+  setParent(pQ->getParent()); 
   temp->setParent(this);
   //delete Q node. Since data is already moved to the current this pointer.
   pQ->setLeft(nullptr);
@@ -286,7 +286,7 @@ void OurCSCE310Tree::rotateRight(){
   setValue(pP->getValue());
   setLeft(pP->getLeft()); // set left of P as Q
   setRight(temp); // maintain right of P to Q
-  setParent(pP->getParent()); // P is root node so parent is null.
+  setParent(pP->getParent()); 
   temp->setParent(this);
 
   //delete P node.Since data is already moved to this pointer.
