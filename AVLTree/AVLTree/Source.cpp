@@ -423,6 +423,8 @@ int main() {
     avltree->printInorder();
     cout << "\n";
     avltree->printPostorder();
+
+    delete avltree;
   }
   cout << "\nTest 2" << endl;
 
@@ -658,7 +660,7 @@ int main() {
     avltree->deleteNode(19);
     avltree->deleteNode(16);
     avltree->deleteNode(26);
-    //avltree->deleteNode(31);
+    avltree->deleteNode(31);
     avltree->deleteNode(27);
 
     avltree->printPreorder();
@@ -951,7 +953,7 @@ int main() {
 
   }
 
-  cout << "test 15" << endl;
+  cout << "test 11" << endl;
   {
     OurCSCE310Tree* avltree = new OurCSCE310Tree();
     avltree->insert(18);
